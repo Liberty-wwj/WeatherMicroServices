@@ -16,5 +16,5 @@ docker build . -f DOCKERFILE -t zip_s_v1
 docker run -d --name c_zip_service_v1 --network cs571_n1 --hostname hn_zip --ip 172.22.0.2 -p 8601:5000 zip_s_v1
 
 # How to access the service to get weather for a specific city?
-# You can use this format of URL: http://127.0.0.1:8601/zipcode/ca/milpitas
-# Please keep in mind that you need to have both state name and city name 
+#   You can use this format of URL: http://127.0.0.1:8601/zipcode/ca/milpitas
+#   Please keep in mind that you need to have both state name and city name 
