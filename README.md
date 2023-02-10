@@ -18,3 +18,5 @@ docker run -d --name c_zip_service_v1 --network cs571_n1 --hostname hn_zip --ip 
 # How to access the service to get weather for a specific city?
     You can use this format of URL: http://127.0.0.1:8601/zipcode/ca/milpitas
     Please keep in mind that you need to have both state name and city name 
+
+![Result pic](https://user-images.githubusercontent.com/98154132/217987084-1a33d13f-c9a5-438c-9baa-53ccc9392e97.jpg)
